@@ -13,10 +13,10 @@ class Thelist(object):
         os.system("mplayer http://stream2.jungletrain.net:8000/")
 
     def station_four(self):
-        os.system("mplayer http://edge-bauerall-01-gos2.sharp-stream.com/kisstory.mp3?aw_0_1st.sk")
+        os.system("mplayer http://tachyon.shoutca.st:8586/stream/;")
 
     def station_five(self):
-        os.system("mplayer http://tachyon.shoutca.st:8586/stream/;")
+        os.system("mplayer http://edge-bauerall-01-gos2.sharp-stream.com/kisstory.mp3?aw_0_1st.sk")
         
 if __name__ == '__main__':
     start = Thelist()
