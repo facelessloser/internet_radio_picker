@@ -7,7 +7,9 @@ class Thelist(object):
         os.system("mplayer http://uk1-pn.webcast-server.net:8698/")
 
     def station_two(self):
-        os.system("mplayer http://stream.drumandbass.fm:9002")
+#        os.system("mplayer http://stream.drumandbass.fm:9002")
+        os.system("mplayer http://trace.dnbradio.com:8000/dnbradio_main.mp3")
+
 
     def station_three(self):
         os.system("mplayer http://stream2.jungletrain.net:8000/")
