@@ -4,7 +4,8 @@ from time import strftime
 class Thelist(object):
 
     def station_one(self):
-        os.system("mplayer http://uk1-pn.webcast-server.net:8698/")
+#        os.system("mplayer http://uk1-pn.webcast-server.net:8698/")
+        os.system("mplayer https://streamer-uk.rinse.fm:8443/stream -cache 2048")
 
     def station_two(self):
 #        os.system("mplayer http://stream.drumandbass.fm:9002")
